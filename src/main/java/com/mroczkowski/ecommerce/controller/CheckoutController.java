@@ -5,6 +5,7 @@ import com.mroczkowski.ecommerce.dto.PurchaseResponse;
 import com.mroczkowski.ecommerce.service.CheckoutService;
 import org.springframework.web.bind.annotation.*;
 
+@CrossOrigin("https://angular-ecommerce-frontend.herokuapp.com")
 @RestController
 @RequestMapping("/api/checkout")
 public class CheckoutController {
