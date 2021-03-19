@@ -18,7 +18,7 @@ public class MyAppConfig implements WebMvcConfigurer {
     public void addCorsMappings(CorsRegistry cors) {
         cors.addMapping(basePath + "/**")
                 .allowedMethods("GET", "POST", "PUT", "DELETE")
-                .allowedOrigins(theAllowedOrigins)
+                .allowedOrigins("https://angular-ecommerce-frontend.herokuapp.com")
                 .allowedHeaders("*");
     }
 }
